@@ -1,18 +1,13 @@
-.column1 {
-    float: left;
-    width: 33.33%;
-    border-block: red;
-
+.columns {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 5px 0;
 }
 
-  .column2 {
-    float: left;
-    width: 33.33%;
-    color: black;
-  }
-
-  .column3 {
-    float: left;
-    width: 33.33%;
-    color: black;
-  }
+.column {
+	flex: 1;
+	border: 1px solid red;
+	margin: 2px;
+  padding: 10px;
+}
