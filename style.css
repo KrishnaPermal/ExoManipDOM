@@ -1,0 +1,18 @@
+.column1 {
+    float: left;
+    width: 33.33%;
+    border-block: red;
+
+}
+
+  .column2 {
+    float: left;
+    width: 33.33%;
+    color: black;
+  }
+
+  .column3 {
+    float: left;
+    width: 33.33%;
+    color: black;
+  }
