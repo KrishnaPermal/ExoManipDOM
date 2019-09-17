@@ -1,13 +1,22 @@
-.columns {
+/*.columns{
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
 	margin: 5px 0;
-}
+}*/
+
+/*.grid {
+	display : grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(2, 150px);
+  }*/
+
 
 .column {
 	flex: 1;
-	border: 1px solid red;
-	margin: 2px;
-  padding: 10px;
+	border: 3px solid blueviolet;
+	margin: 60px;
+  	padding: 50px;
 }
+
+
